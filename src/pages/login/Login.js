@@ -1,5 +1,6 @@
 import React from "react";
 import "./Login.css";
+import {Link} from "react-router-dom";
 
 function Login() {
   const handleClick = (e) => {
@@ -26,7 +27,9 @@ function Login() {
             <button className="loginButton">Log In</button>
             <span className="loginForgot">Forgot Password?</span>
             <button className="loginRegisterButton">
+              <Link style={{textDecoration: "none", color: "#fff"}} to="/register">
               Create a New Account
+              </Link>
             </button>
           </form>
         </div>

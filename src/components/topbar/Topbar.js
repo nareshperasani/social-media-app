@@ -39,7 +39,9 @@ function Topbar() {
             <span className="topbarIconBadge">1</span>
           </div>
         </div>
+        <Link to="/login">
         <img src="/assets/images/1.jpeg" alt="" className="topbarImg" />
+        </Link>
       </div>
     </div>
   );
